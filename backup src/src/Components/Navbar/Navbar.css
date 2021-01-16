@@ -1,0 +1,97 @@
+#headingAndMenu {
+  background-color: white;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px 0px;
+  padding-bottom: 0px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 55;
+}
+
+#menu {
+  background-color: lightslategray;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 20px;
+}
+#menu img {
+  width: 80px;
+  height: 70px;
+  margin-left: 10px;
+}
+.nav {
+  height: 100%;
+  display: flex;
+  flex-flow: row;
+}
+/* ul .li{
+    display: inline-block;
+    padding: 15px;
+    display: inline-block;
+    height: 100%;
+  }
+  ul .li .a{
+    text-decoration: none;
+    color:white;
+    font-size: large;
+    height: 100%;
+  } */
+/* .nav li{
+  list-style: none;
+  
+}
+.nav li a{
+  text-decoration: none;
+  color:white;
+  display: inline-block;
+  height: 100%;
+} */
+
+.NavigationItem {
+  margin: 0;
+
+  display: inline-block;
+  height: 100%;
+  width: auto;
+  align-items: center;
+}
+.NavigationItem a {
+  text-decoration: none;
+  color: white;
+  height: 100%;
+  padding: 25px 10px;
+  border-radius: 5px;
+  font-size: large;
+}
+
+.theme {
+  display: none;
+  position: absolute;
+  background-color: lightslategray;
+  top: 100%;
+  width: 190px;
+  z-index: 20;
+}
+
+.theme a:hover {
+  background-color: rgb(3, 33, 63);
+}
+.theme a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.themeDisplay {
+  display: block;
+}
+@media (max-width: 850px) {
+  .DesktopOnly {
+    display: none;
+  }
+}

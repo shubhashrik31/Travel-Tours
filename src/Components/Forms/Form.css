@@ -1,0 +1,438 @@
+.content {
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  text-align: center;
+  padding-top: 10px;
+  height: 150px;
+}
+.box {
+  width: 40%;
+  text-align: left;
+  border: 3px solid grey;
+  padding-right: 0px;
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: 5%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 10px 10px 5px grey;
+}
+.control-box {
+  width: 40%;
+  text-align: left;
+  border-top: 3px solid grey;
+  border-right: 3px solid grey;
+  border-left: 3px solid grey;
+  padding-right: 0px;
+  margin: auto;
+  margin-top: 5%;
+  padding-top: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+  box-shadow: 10px 10px 5px grey;
+}
+.contact-details-box {
+  margin-bottom: 1%;
+  text-align: center;
+  padding-top: 2%;
+  margin-bottom: 4%;
+  padding-bottom: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  float: left;
+  background-color: #f0f5f5;
+  border-radius: 5%;
+  margin-right: -1%;
+  margin-left: 3%;
+}
+.contact_text {
+  width: 70%;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin: auto;
+}
+.contact_text1 {
+  width: 70%;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin: auto;
+}
+.contact-details-box1 {
+  text-align: center;
+  padding-top: 8%;
+  padding-bottom: 8%;
+  padding-left: 5%;
+  padding-right: 5%;
+  float: left;
+  background-color: #ffffcc;
+  border-radius: 5%;
+  margin: auto;
+  margin-bottom: 1%;
+  margin-left: 3%;
+}
+.map {
+  display: block;
+  width: 60%;
+}
+.contact_map_box {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 0%;
+  margin-top: 1%;
+}
+.contact_header {
+  text-align: center;
+  margin: auto;
+  background-image: url("../../Assets/background.jpg");
+  width: 100%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  margin-top: -2%;
+}
+.booking-box {
+  width: 40%;
+  text-align: left;
+  border: 5px solid gray;
+  border-radius: 10px;
+  padding-right: 0px;
+  margin: auto;
+  margin-top: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 100px;
+}
+.box-Charges {
+  text-align: left;
+  margin-left: 0%;
+  margin-bottom: 5%;
+  color: black;
+}
+.booking-datails {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.booking-datails-text {
+  padding-bottom: 10px;
+}
+.booking-success-box {
+  width: 50%;
+  text-align: center;
+  border: 5px solid aqua;
+  margin: 10% auto 9%;
+}
+
+.input {
+  width: 45%;
+  text-align: left;
+  padding-right: 0px;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+.input1 {
+  width: 45%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.gender {
+  width: 35%;
+  text-align: left;
+  padding-right: 0px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 28%;
+  float: left;
+}
+.male {
+  text-align: left;
+
+  margin-left: -60%;
+  margin-right: 1%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.female {
+  margin-left: 5%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.g1 {
+  width: 40%;
+  margin-top: 2%;
+
+  margin-left: 40%;
+  padding-left: 0px;
+}
+.g2 {
+  display: inline-block;
+
+  width: 100%;
+}
+.radio {
+  margin-left: 5%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.emoji {
+  display: inline-block;
+  color: forestgreen;
+  margin: 0px;
+  padding: 0px;
+  font-size: 24px;
+  position: relative;
+  top: 3px;
+  left: 6px;
+}
+.option-bar {
+  width: 40%;
+  margin: auto;
+  border: 3px solid grey;
+  border-bottom: 0px;
+  margin-top: 100px;
+  border-bottom: 1px solid grey;
+  display: inline;
+  font-weight: bold;
+  color: darkslateblue;
+  font-size: 15px;
+}
+
+.box1 {
+  float: left;
+
+  width: 20%;
+  height: 50px;
+  padding-top: 5%;
+}
+.menubar {
+  margin-top: 5px;
+  background-color: gray;
+  font-size: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.button {
+  background-color: white; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  padding-top: 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: fit-content;
+  height: 40px;
+  min-width: 80%;
+  border-radius: 5px;
+}
+.button1 {
+  background-color: deepskyblue;
+  color: white;
+  border: 3px solid deepskyblue;
+}
+
+.button1:disabled{
+  background: #9ce3ff;
+  cursor: not-allowed;
+}
+
+.button1:not(:disabled):hover{
+  background-color: white;
+  color: black;
+}
+
+.home {
+  font-size: 20px;
+  height: 100%;
+  display: inline;
+  padding-top: 5%;
+  margin-top: 40%;
+  padding-left: 10%;
+  padding-bottom: 5%;
+}
+
+.home a {
+  background: #ffffff;
+
+  color: deepskyblue;
+  text-align: center;
+}
+
+.home a:hover {
+  background: deepskyblue;
+  color: #ffffff;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+input[type="number"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+input[type="gender"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+input[type="tel"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.col-50 {
+  float: left;
+  width: 40%;
+  margin: auto;
+}
+
+.col-50 a {
+  display: block;
+  background: #c8c8c8;
+  height: 100%;
+  width: fit-content;
+  padding: 10% 35%;
+  color: white;
+  font-size: 16px;
+  border-radius: 3%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #20232a;
+}
+
+.col-50 a:hover {
+  text-decoration: none;
+  color: #61dffb;
+}
+
+.bar {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 50px;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.li {
+  width: 20%;
+  font-size: 20px;
+  display: inline;
+  padding-right: 20%;
+  padding-left: 15%;
+}
+.simple {
+  text-align: left;
+}
+.label_text {
+  margin-bottom: 5px;
+  padding-bottom: 2px;
+  font-weight: lighter;
+}
+.form_submit {
+  margin-bottom: 1%;
+}
+.s1 {
+  width: 50%;
+}
+
+.mapStyle {
+  height: 500px;
+  width: 500px;
+  margin: 40px;
+}
+.button2 {
+  width: 50px;
+}
+
+.sign-up-failed {
+  color: red;
+  font-size: 20px;
+  font-weight: lighter;
+  margin-top: 20px;
+  font-weight: 300;
+}
